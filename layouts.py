@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from datetime import timedelta, date
 from datetime import datetime
-# from app import app
+from population import app
 from components.contents import *
 # from callbacks import *
 
