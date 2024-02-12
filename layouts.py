@@ -101,6 +101,8 @@ layout1 = html.Div([
     html.H1("World Population Trends"),
     html.Hr(),
     html.H4("Effects of Fertility Rate and Population Growth on Median Age"),
+    html.H5("The median age varies across the globe. Western and advanced economies tend to be much older. Countries in Africa and the Middle East tend to be much younger."),
+    html.H5("Two factors that are highly correlated with median are the fertility rate and population growth rate. As both factors fall, the median age increases."),
     dbc.Container([
         dbc.Row([
             dbc.Col([
@@ -148,6 +150,7 @@ layout2 = html.Div([
     html.H1("Population by Age Groups"),
     html.Hr(),
     html.H4("The age groups within a given population reveals the underlying population dynamics."),
+    html.H5("The proportion of various age groups within a population reveals why the population growth rate slows down. A large young population indicates a high growth potential but the rate slows as the 'graying' of the population quickly lowers the rate."),
     dbc.Container([
         dbc.Row([
             dbc.Col([
@@ -220,6 +223,7 @@ layout4 = html.Div([
     html.H1("Population Projections"),
     html.Hr(),
     html.H5("Expected population changes by age groups. "),
+    html.H5("The following plot shows the age groups of a population and future projections. Most advanced economies have large older age groups while developing countries in regions such as Africa have large younger age groups."),
     dbc.Container([
         dbc.Row([
             dbc.Col([
